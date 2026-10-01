@@ -1,0 +1,240 @@
+ls -l
+pwd
+mkdir clase4
+cd clase4/
+cat <<<FIN > archivo1.txt
+ls
+rm -rf archivo1.txt 
+ls
+cat <<FIN > archivo1.txt
+Linea1
+Linea2
+Linea3
+Linea4
+Linea5
+FIN
+
+ls
+cat archivo1.txt 
+cat <<FIN > archivo2.txt
+Linea6
+Linea7
+FIN
+
+cat archivo1.txt archivo2.txt > archivo3.txt
+cat archivo3.txt 
+cat *.txt
+grep 5 *
+grep -n 6 *
+linea -in *
+grep linea -in *
+grep -ic linea *
+git status
+tree
+sudo apt i tree
+sudo apt install tree
+sudo apt update
+sudo apt install tree
+tree
+mkdir practica
+cd practica/
+ls -;
+ls -l
+touch practica1.txt
+ls
+cp practica1.txt practica2.txt
+ls
+rm practica1.txt 
+ls
+mv practica2.txt /home/vagrant/clase4/
+ls
+cd ..
+ls
+rmdir practica/
+ls
+exit
+pwd
+ls
+mkdir clase5 && cd clase5
+mkdir facturas pedidos
+ls
+tree
+mkdir -p clientes/{facturas,pedidos}
+tree
+mkdir -p {clientes,proveedores}/{facturas.pedidos}
+tree
+puse punto lpm
+rm clientes/{facturas.pedidos}
+rm -r clientes/{facturas.pedidos}
+tree
+rm -r proveedores/{facturas.pedidos}
+tree
+mkdir -p contactos/{clientes,proveedores}/{facturas,pedidos}
+tree
+mkdir proveedores/{facturas,pedidos}
+tree
+mkdir -p {rodriguez_viegas_1/mama/{hijo{1..3},rodriguez_viegas_1/papa/{ahijado,hijo{1..3}}
+tree
+rm -r rodriguez_viegas_1
+rm -r {rodriguez_viegas_1
+tree
+mkdir -p {rodriguez_viegas_1/mama/{hijo{1..3},rodriguez_viegas_1/papa/{ahijado,hijo{1..3}}}
+tree
+rm -r {rodriguez_viegas_1
+tree
+mkdir -p rodriguez_viegas_1/{mama/hijo{1..3},papa/{ahijado,hijo{1..3}}}
+tree
+rename
+mv rodriguez_viegas_1 rodriguez_viegas_2
+tree
+mkdir -p
+mkdir "
+d
+pwd
+tretereexitsdexit
+exit
+pwd
+dw
+ar
+lfflffflffff
+ar
+clearlcaer
+wd
+clelcelllfffldddgg;lgjclepwdpmrsrrtt ta mas roto esto
+clear
+pwd
+ta ar
+clea
+ls
+exit
+pwd
+ls
+cd clase5
+ls
+mkdir "-p"
+tree
+cd ../
+ls
+cd clase5
+ls -l ~
+whoami
+id
+cat /etc/passwd
+grep -i vagrant /etc/passwd 
+cat /etc/shadow
+sudo cat /etc/shadow
+sudo grep -i vagrant /etc/shadow
+sudo groupadd alumnos
+cat /etc/groups
+cat /etc/group
+sudo useradd -m -s /bin/bash -c "Alumno de prueba" -G alumnos pepe
+sudo grep pepe /etc/group
+ls -l /home
+sudo passwd pepe
+su pepe
+su - pepe
+ls -l /home/pepe
+sudo chown pepe:pepe clientes
+ls -l
+ls -l home/pepe/
+ls -l /home/pepe/
+sudo ls -l /home/pepe/
+sudo chown vagrant:vagrant /home/pepe/pepe.txt
+su - pepe
+touch practica1.txt
+touch practica2.txt
+ls
+tree
+ls -l
+chmod 600 practica1.txt 
+ls -l
+chmod 444 practica2.txt 
+ls -l
+echo "hola" >> practica2.txt 
+chmod 644 practica2.txt 
+ls -l
+echo "hola" >> practica2.txt 
+cat practica2.txt 
+cd ..
+chmod -R 777 clase5/
+ls -l
+chmod -R 666 clase5/
+sudo chmod -R 666 clase5/
+ls -l
+cd clase5/
+pwd
+sudo chmod -R 777 clase5/
+cd clase5/
+chmod 666 practica1.txt 
+ls -l
+chmod 666 *.txt
+ls -l
+exit
+ssh-keygen -t ed25519
+pwd
+cd ..
+ls -la
+cd ssh
+cd .ssh
+ls
+ls -l
+ls -a
+pwd
+cat $HOME/.ssh/*.pub
+clar
+clear
+pd
+pwddwdwppwpww
+cat $HOME/.ssh/*.pub
+cd
+mkdir repogit
+cd repogit/
+ls
+git clone https://github.com/RRodriguezViegas/TP1_AySO_Rodriguez_Viegas_Ramiro.git
+cd TP1_AySO_Rodriguez_Viegas_Ramiro/
+ls -l
+pwd
+cat /etc/os-release
+man grep
+grep HOME_URL /etc/os-release
+grep home_url /etc/os-release
+grep -i home_url /etc/os-release
+grep -i home_url /etc/os-release > datos_url.txt
+ls -l
+whoami
+echo "Usuario=$(whoami)" > datos_usuario.txt
+git add .
+git config --global user.email "ramiirv26@gmail.com"
+git config --global user.name "RRodriguezViegas"
+git commit -m "ADD: agregado 1er ejercicio sobre datos_usuario.txt"
+git status
+git push
+git remote set-url origin git@github.com:RRodriguezViegas/TP1_AySO_Rodriguez_Viegas_Ramiro.git
+git remote -v
+git status
+git push
+grep "model name" /proc/cpuinfo | head -n1 >> datos_usuario.txt
+cat datos_usuario.txt 
+git add .
+git commit -m "feat: Añadiendo información de CPU"
+git push
+cat <<EOF >> README.md
+Alumno: Ramiro Rodriguez Viegas
+Division: 212
+Turno: Tarde
+EOF
+
+cat README.md 
+git add README.md datos_usuario.txt 
+git commit -m "ADD: Añadiendo Readme y datos de usuario"
+git push
+mkdir -p materia{1,2}/uni{1,2,3}
+tree
+cat script_dir.sh 
+ls -l
+chmod 755 script_dir.sh 
+ls -l
+git add .
+git commit -m "ADD: Añadiendo script"
+git push
+history -a
